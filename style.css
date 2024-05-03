@@ -3,11 +3,17 @@
     list-style: none;
     text-decoration: none;
     /* border: 2px solid red; */
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0 auto;
     max-width: 1000px;
+}
+
+footer {
+    background-color: #1f2937;
 }
 
 .header, .hero, .information, .quote, .call-to-action {
@@ -31,8 +37,19 @@ a, .hero-secondary {
     justify-content: center; */
 }
 
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .hero {
     background-color: #1f2937;
+}
+
+.hero-left {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
 }
 
 .hero-secondary {
@@ -50,8 +67,23 @@ a, .hero-secondary {
     flex: 1;
 }
 
-.img {
+img {
     width: 100px;
+    height: 100px;
+}
+
+.img {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:xx-small;
 }
 
 .logo {
@@ -73,8 +105,23 @@ a, .hero-secondary {
     background-color: #e5e7eb;
 }
 
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
 .information-header {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: extra-bold;
     color: #1f2937;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.call-to-action {
+    background-color: #3882F6;
 }
