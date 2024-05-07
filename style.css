@@ -2,9 +2,10 @@
     list-style: none;
     text-decoration: none;
     /*border: 2px solid red;*/
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    border: red dotted 1px;
 }
 
 body {
@@ -18,20 +19,23 @@ body {
 .header {
     background-color: #1f2937;
     display: flex;
-    align-items: center;
     color: #f9faf8;
-    font-size: 24px;
-    height: 120px;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-
+    padding: 1em 10em; 
 }
 
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
-    align-items: center;
+    /* align-items: center; */
+    /* gap: 20px; */
+    display: flex;
+    gap: 1em;
+}
+
+.logo {
+    flex: 1;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 a, .hero-secondary {
@@ -41,37 +45,38 @@ a, .hero-secondary {
 
 .hero {
     background-color: #1f2937;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight:900;
     color: #f9faf8;
-    flex: 1;
+    padding: 0em 10em; 
+    display: flex;
+    
 }
 
 .hero-left {
     font-size: 48px;
-    font-weight: extra-bold;
     color: #F9FAF8;
+    flex: 1;
+    
 }
 
 .hero-secondary {
     font-size: 18px;
     color: #e5e7eb;
+    flex: 1;
 } 
 
-
-
 img {
-    width: 300px;
-    height: 150px;
+    /* width: 300px;
+    height: 150px; */
+    align-self: center;
+    justify-content: center;
 }
 
 .img {
     position: relative;
     text-align: center;
     color: black;
+    align-self: center;
+    width: 50%;
 }
 
 .img-text {
@@ -82,23 +87,18 @@ img {
     font-size:xx-small;
 }
 
-.logo {
-    flex: 1;
-    font-size: 24px;
-    color: #f9faf8;
-}
+
 
 .nav {
     display: flex;
     gap: 20px;
 }
 
-.header-links {
-    display: flex;
-}
+
 
 .quote {
     background-color: #e5e7eb;
+    padding: 2em 18em;
 }
 
 .quote-text, .quote-small-text {
@@ -111,10 +111,40 @@ img {
     text-align: right;
 }
 
+.information {
+    padding: 0em 10em;
+}
+
 .information-header {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1f2937;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.information-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3em 0 6em 0;
+}
+
+.square {
+    border: 5px solid rgb(55, 128, 246);
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+}
+
+.card {
+    text-align: center;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
 }
 
 button {
@@ -124,6 +154,9 @@ button {
 
 .call-to-action {
     background-color: #3882F6;
+    padding: 0em 10em;
+    text-align: center;
+    display: flex;
 }
 
 /*footer*/
@@ -133,5 +166,7 @@ footer {
     color: white;
     text-align: center;
     min-height: 80px;
-
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
