@@ -9,7 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/*header*/
+/*HEADER*/
 
 .header {
     background-color: #1f2937;
@@ -44,8 +44,7 @@ body {
 
 }
 
-
-/* Hero */
+/* HERO */
 a, .hero-secondary {
     font-size: 18px;
     color: #e5e7eb;
@@ -74,7 +73,7 @@ a, .hero-secondary {
     color: #e5e7eb;
 } 
 
-/* Image */
+/* IMAGE */
 
 img {
     width: 100%;
@@ -87,16 +86,7 @@ img {
     color: black;
 }
 
-/* Image Placeholder Text
-.img-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size:xx-small;
-} */
-
-/* Quote */
+/* QUOTE */
 .quote {
     background-color: #e5e7eb;
     padding: 2em 18em;
@@ -112,7 +102,7 @@ img {
     text-align: right;
 }
 
-/* Informations Cards */
+/* INFORMATION CARDS */
 .information {
     padding: em 10em;
 }
@@ -161,7 +151,7 @@ button {
     align-content: center;
 }
 
-/* Call to Action */
+/* CALL TO ACTION */
 
 .container {
     display: flex;
@@ -185,7 +175,7 @@ button {
     align-self: center;
 }
 
-/*footer*/
+/*FOOTER*/
 
 footer {
     background-color: #1f2937;
